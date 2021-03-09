@@ -12,5 +12,18 @@ package one.digitalinovation.collections
     for(valor in values) {
         print("$valor ")
     }
+//com recursos de lambda
+        values.forEach {
+            println(it)
+        }
+        //outra forma de iterar
+        values.forEach {  valor  ->
+            println(valor)}
 
+
+        //iterar pelo indice ordenado
+values.sort()
+        for ( indi in values.indices) {
+            println( values[indi])
+        }
     }
