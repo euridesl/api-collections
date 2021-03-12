@@ -5,7 +5,7 @@ fun main() {
     val pedro = Funcionario("pedro", 3000.0, "PJ")
     val maria = Funcionario("maria", 1000.0, "PJ")
 //atribuindo funcionario a funcionarios1 e funcionarios 2
-    var funcionarios1 = setOf(joao,pedro)
+    val funcionarios1 = setOf(joao,pedro)
     val funcionarios2 = setOf(maria)
     //juntando funcionarios1 e funcionarios2
     val funcionarios = funcionarios1.union(funcionarios2)
