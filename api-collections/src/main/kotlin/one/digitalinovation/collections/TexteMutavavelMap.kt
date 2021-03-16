@@ -13,4 +13,15 @@ fun main() {
 
     println(repositorio.findByID(joao.nome))
 
+    //imprimir todos
+
+    println (repositorio.findAll())
+
+    repositorio.findAll().forEach { println(it) }
+
+    // removendo um funcionario
+
+    repositorio.remove(maria.nome)
+    repositorio.findAll().forEach { println(it) }
+
 }
